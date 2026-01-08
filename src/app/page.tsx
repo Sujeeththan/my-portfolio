@@ -80,7 +80,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-tr from-primary to-purple-500 rounded-full blur-[100px] opacity-20 animate-pulse"></div>
             <div className="relative w-full h-full rounded-full border-4 border-background shadow-2xl overflow-hidden ring-4 ring-primary/20">
               <Image
-                src="/profile.png"
+                src="/profile.jpg"
                 alt="Kanagalingam Sujeeththan"
                 fill
                 className="object-cover"
