@@ -36,18 +36,18 @@ export default function Home() {
             <span className="text-primary">KS</span> Portfolio
           </div>
           <nav className="flex items-center gap-6 text-sm font-medium">
-            <a href="#about" className="hover:text-primary transition-colors">
+            <Link href="#about" className="hover:text-primary transition-colors">
               About
-            </a>
-            <a href="#experience" className="hover:text-primary transition-colors">
+            </Link>
+            <Link href="#experience" className="hover:text-primary transition-colors">
               Experience
-            </a>
-            <a href="#projects" className="hover:text-primary transition-colors">
+            </Link>
+            <Link href="#projects" className="hover:text-primary transition-colors">
               Projects
-            </a>
-            <a href="#contact" className="hover:text-primary transition-colors">
+            </Link>
+            <Link href="#contact" className="hover:text-primary transition-colors">
               Contact
-            </a>
+            </Link>
           </nav>
         </div>
       </header>
@@ -69,10 +69,10 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
               <Button asChild size="lg">
-                <a href="#contact">Contact Me</a>
+                <Link href="#contact">Contact Me</Link>
               </Button>
               <Button variant="outline" size="lg" asChild>
-                <a href="#projects">View Projects</a>
+                <Link href="#projects">View Projects</Link>
               </Button>
             </div>
           </div>
@@ -313,9 +313,9 @@ export default function Home() {
                 </a>
               </Button>
               <Button size="lg" variant="outline" className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
-                <a href="#about">
+                <Link href="#about">
                   <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
-                </a>
+                </Link>
               </Button>
             </div>
           </div>

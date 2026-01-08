@@ -122,4 +122,8 @@
   body {
     @apply bg-background text-foreground font-sans antialiased;
   }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
 }
