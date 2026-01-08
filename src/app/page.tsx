@@ -244,8 +244,13 @@ export default function Home() {
                   A comprehensive platform for ordering groceries online. Built with a full modern stack including authentication and database integration.
                 </p>
               </CardContent>
-              <CardFooter>
-                <Button variant="ghost" size="sm" className="w-full gap-2">
+              <CardFooter className="flex gap-2">
+                <Button variant="outline" size="sm" className="flex-1 gap-2" asChild>
+                  <a href="https://klickjet.vercel.app" target="_blank" rel="noopener noreferrer">
+                    <ExternalLink className="h-4 w-4" /> View Project
+                  </a>
+                </Button>
+                <Button variant="ghost" size="sm" className="flex-1 gap-2">
                   <Github className="h-4 w-4" /> View Code
                 </Button>
               </CardFooter>
@@ -267,8 +272,13 @@ export default function Home() {
                   Keep track of your favorite TV shows. Features a clean UI and data persistence using local storage.
                 </p>
               </CardContent>
-              <CardFooter>
-                <Button variant="ghost" size="sm" className="w-full gap-2">
+              <CardFooter className="flex gap-2">
+                <Button variant="outline" size="sm" className="flex-1 gap-2" asChild>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <ExternalLink className="h-4 w-4" /> View Project
+                  </a>
+                </Button>
+                <Button variant="ghost" size="sm" className="flex-1 gap-2">
                   <Github className="h-4 w-4" /> View Code
                 </Button>
               </CardFooter>
@@ -290,8 +300,13 @@ export default function Home() {
                   A simple and efficient task management tool to help you stay organized.
                 </p>
               </CardContent>
-              <CardFooter>
-                <Button variant="ghost" size="sm" className="w-full gap-2">
+              <CardFooter className="flex gap-2">
+                <Button variant="outline" size="sm" className="flex-1 gap-2" asChild>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <ExternalLink className="h-4 w-4" /> View Project
+                  </a>
+                </Button>
+                <Button variant="ghost" size="sm" className="flex-1 gap-2">
                   <Github className="h-4 w-4" /> View Code
                 </Button>
               </CardFooter>
