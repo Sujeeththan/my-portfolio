@@ -328,7 +328,7 @@ export default function Home() {
                 </a>
               </Button>
               <Button size="lg" variant="outline" className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
-                <Link href="#about">
+                <Link href="https://www.linkedin.com/in/sujeeththan/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
                 </Link>
               </Button>
@@ -346,7 +346,7 @@ export default function Home() {
             <a href="#" className="text-muted-foreground hover:text-foreground">
               <Github className="h-5 w-5" />
             </a>
-            <a href="#" className="text-muted-foreground hover:text-foreground">
+            <a href="https://www.linkedin.com/in/sujeeththan/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground">
               <Linkedin className="h-5 w-5" />
             </a>
           </div>
