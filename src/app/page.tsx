@@ -61,7 +61,9 @@ export default function Home() {
             </div>
             <h1 className="text-4xl md:text-6xl font-bold tracking-tighter sm:text-5xl">
               Hi, I'm <br className="hidden md:block" />
-              <span className="text-primary">Kanagalingam Sujeeththan</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-purple-500 to-primary bg-[length:300%_auto] animate-gradient-x">
+                Kanagalingam Sujeeththan
+              </span>
             </h1>
             <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mx-auto md:mx-0">
               Passionate developer with hands-on experience building responsive and scalable web applications.
