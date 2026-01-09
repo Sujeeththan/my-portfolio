@@ -302,7 +302,7 @@ export default function Home() {
               </CardContent>
               <CardFooter className="flex gap-2">
                 <Button variant="outline" size="sm" className="flex-1 gap-2" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://todo-application-phi-one.vercel.app/" target="_blank" rel="noopener noreferrer">
                     <ExternalLink className="h-4 w-4" /> View Project
                   </a>
                 </Button>
