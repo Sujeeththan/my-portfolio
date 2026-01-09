@@ -358,7 +358,7 @@ export default function Home() {
             © 2026 Kanagalingam Sujeeththan. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
-            <a href="#" className="text-muted-foreground hover:text-foreground">
+            <a href="https://github.com/Sujeeththan" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground">
               <Github className="h-5 w-5" />
             </a>
             <a href="https://www.linkedin.com/in/sujeeththan/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground">
