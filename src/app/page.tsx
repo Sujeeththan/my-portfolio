@@ -250,8 +250,10 @@ export default function Home() {
                     <ExternalLink className="h-4 w-4" /> View Project
                   </a>
                 </Button>
-                <Button variant="ghost" size="sm" className="flex-1 gap-2">
-                  <Github className="h-4 w-4" /> View Code
+                <Button variant="ghost" size="sm" className="flex-1 gap-2" asChild>
+                  <a href="https://github.com/Sujeeththan/KlickJet-client" target="_blank" rel="noopener noreferrer">
+                    <Github className="h-4 w-4" /> View Code
+                  </a>
                 </Button>
               </CardFooter>
             </Card>
@@ -278,8 +280,10 @@ export default function Home() {
                     <ExternalLink className="h-4 w-4" /> View Project
                   </a>
                 </Button>
-                <Button variant="ghost" size="sm" className="flex-1 gap-2">
-                  <Github className="h-4 w-4" /> View Code
+                <Button variant="ghost" size="sm" className="flex-1 gap-2" asChild>
+                  <a href="https://github.com/Sujeeththan/show-tracker" target="_blank" rel="noopener noreferrer">
+                    <Github className="h-4 w-4" /> View Code
+                  </a>
                 </Button>
               </CardFooter>
             </Card>
@@ -306,8 +310,10 @@ export default function Home() {
                     <ExternalLink className="h-4 w-4" /> View Project
                   </a>
                 </Button>
-                <Button variant="ghost" size="sm" className="flex-1 gap-2">
-                  <Github className="h-4 w-4" /> View Code
+                <Button variant="ghost" size="sm" className="flex-1 gap-2" asChild>
+                  <a href="https://github.com/Sujeeththan/todo-application" target="_blank" rel="noopener noreferrer">
+                    <Github className="h-4 w-4" /> View Code
+                  </a>
                 </Button>
               </CardFooter>
             </Card>
