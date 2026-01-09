@@ -77,15 +77,24 @@ export default function Home() {
             </div>
           </div>
           <div className="relative w-[280px] h-[280px] md:w-[400px] md:h-[400px] shrink-0">
+            {/* Animated Glow Background */}
             <div className="absolute inset-0 bg-gradient-to-tr from-primary to-purple-500 rounded-full blur-[100px] opacity-20 animate-pulse"></div>
-            <div className="relative w-full h-full rounded-full border-4 border-background shadow-2xl overflow-hidden ring-4 ring-primary/20">
-              <Image
-                src="/profile.jpg"
-                alt="Kanagalingam Sujeeththan"
-                fill
-                className="object-cover"
-                priority
-              />
+            
+            {/* Animated Circular Border Wrapper */}
+            <div className="relative w-full h-full rounded-full p-1 overflow-hidden group">
+              {/* Rotating Gradient Border - "Running" effect */}
+              <div className="absolute inset-[-50%] animate-spin-slow bg-[conic-gradient(from_0deg,transparent_0deg,var(--color-primary)_20deg,transparent_45deg)] group-hover:animate-[spin-slow_3s_linear_infinite]"></div>
+              
+              {/* Profile Image Container */}
+              <div className="relative w-full h-full rounded-full border-4 border-background shadow-2xl overflow-hidden ring-4 ring-primary/20 z-10 bg-background">
+                <Image
+                  src="/profile.jpg"
+                  alt="Kanagalingam Sujeeththan"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
+                  priority
+                />
+              </div>
             </div>
           </div>
         </section>
