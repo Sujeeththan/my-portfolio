@@ -90,7 +90,7 @@ export default function Home() {
               {/* Profile Image Container */}
               <div className="relative w-full h-full rounded-full border-4 border-background shadow-2xl overflow-hidden ring-4 ring-primary/20 z-10 bg-background">
                 <Image
-                  src="/profile.jpg"
+                  src="/profile.jpeg"
                   alt="Kanagalingam Sujeeththan"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
